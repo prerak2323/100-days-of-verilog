@@ -1,0 +1,90 @@
+$date
+	Thu Sep 12 20:59:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ALU_tb $end
+$var wire 1 ! zero $end
+$var wire 16 " sum [15:0] $end
+$var wire 1 # sign $end
+$var wire 1 $ parity $end
+$var wire 1 % overflow $end
+$var wire 1 & carry $end
+$var reg 16 ' x [15:0] $end
+$var reg 16 ( y [15:0] $end
+$scope module a $end
+$var wire 1 % overflow $end
+$var wire 1 $ parity $end
+$var wire 16 ) x [15:0] $end
+$var wire 16 * y [15:0] $end
+$var wire 1 ! zero $end
+$var wire 16 + sum [15:0] $end
+$var wire 1 # sign $end
+$var wire 1 & carry $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+x&
+x%
+x$
+x#
+bx "
+x!
+$end
+#5
+0%
+0#
+1$
+0!
+b1010 "
+b1010 +
+0&
+b101 (
+b101 *
+b101 '
+b101 )
+#10
+0$
+b1101 "
+b1101 +
+b111 (
+b111 *
+b110 '
+b110 )
+#15
+1$
+b10111 "
+b10111 +
+b1000 (
+b1000 *
+b1111 '
+b1111 )
+#20
+b1001 (
+b1001 *
+b1110 '
+b1110 )
+#25
+b1010 (
+b1010 *
+b1101 '
+b1101 )
+#30
+b1011 (
+b1011 *
+b1100 '
+b1100 )
