@@ -1,0 +1,11 @@
+digraph "level_sensitive_latch" {
+label="level_sensitive_latch";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="d", color="black", fontcolor="black"];
+n2 [ shape=octagon, label="enb", color="black", fontcolor="black"];
+n3 [ shape=octagon, label="q", color="black", fontcolor="black"];
+c6 [ shape=record, label="{{<p4> A|<p5> Z}|$82\nBUF_X1|{}}",  ];
+n3:e -> c6:p4:w [color="black", fontcolor="black", label=""];
+n3:e -> c6:p5:w [color="black", fontcolor="black", label=""];
+}

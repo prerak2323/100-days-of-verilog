@@ -1,0 +1,27 @@
+digraph "srlatch" {
+label="srlatch";
+rankdir="LR";
+remincross=true;
+n3 [ shape=octagon, label="enb", color="black", fontcolor="black"];
+n4 [ shape=octagon, label="q", color="black", fontcolor="black"];
+n5 [ shape=octagon, label="qbar", color="black", fontcolor="black"];
+n6 [ shape=octagon, label="r", color="black", fontcolor="black"];
+n7 [ shape=octagon, label="s", color="black", fontcolor="black"];
+c10 [ shape=record, label="{{<p8> A|<p9> ZN}|$88\nINV_X1|{}}",  ];
+c11 [ shape=record, label="{{<p8> A|<p9> ZN}|$89\nINV_X1|{}}",  ];
+c14 [ shape=record, label="{{<p12> A1|<p13> A2|<p9> ZN}|$90\nNAND2_X1|{}}",  ];
+c17 [ shape=record, label="{{<p8> A|<p15> B1|<p16> B2|<p9> ZN}|$91\nAOI21_X1|{}}",  ];
+n1 [ shape=diamond, label="$87" ];
+n1:e -> c11:p8:w [color="black", fontcolor="black", label=""];
+n1:e -> c17:p9:w [color="black", fontcolor="black", label=""];
+n2 [ shape=diamond, label="$new_n7" ];
+n2:e -> c10:p9:w [color="black", fontcolor="black", label=""];
+n2:e -> c17:p8:w [color="black", fontcolor="black", label=""];
+n4:e -> c11:p9:w [color="black", fontcolor="black", label=""];
+n4:e -> c14:p13:w [color="black", fontcolor="black", label=""];
+n4:e -> c17:p15:w [color="black", fontcolor="black", label=""];
+n5:e -> c14:p9:w [color="black", fontcolor="black", label=""];
+n6:e -> c10:p8:w [color="black", fontcolor="black", label=""];
+n7:e -> c14:p12:w [color="black", fontcolor="black", label=""];
+n7:e -> c17:p16:w [color="black", fontcolor="black", label=""];
+}
