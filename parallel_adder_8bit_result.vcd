@@ -1,0 +1,88 @@
+$date
+	Thu Sep 12 18:05:51 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module parallel_adder_8bit_tb $end
+$var wire 8 ! sum [7:0] $end
+$var wire 1 " cout $end
+$var reg 1 # cin $end
+$var reg 8 $ in1 [7:0] $end
+$var reg 8 % in2 [7:0] $end
+$scope module PA $end
+$var wire 1 # cin $end
+$var wire 8 & in1 [7:0] $end
+$var wire 8 ' in2 [7:0] $end
+$var wire 8 ( sum [7:0] $end
+$var wire 1 " cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b101 '
+b1010 &
+b101 %
+b1010 $
+0#
+x"
+bx !
+$end
+#10
+b1111 !
+b1111 (
+0"
+#11
+1#
+b110 %
+b110 '
+b1011 $
+b1011 &
+#21
+b10010 !
+b10010 (
+#22
+0#
+b111 %
+b111 '
+b1100 $
+b1100 &
+#32
+b10011 !
+b10011 (
+#33
+1#
+b1000 %
+b1000 '
+b1101 $
+b1101 &
+#43
+b10110 !
+b10110 (
+#44
+0#
+b1001 %
+b1001 '
+b1110 $
+b1110 &
+#54
+b10111 !
+b10111 (
+#55
+1#
+b1010 %
+b1010 '
+b1111 $
+b1111 &
+#65
+b11010 !
+b11010 (
+#1000
