@@ -1,0 +1,624 @@
+$date
+	Mon Sep 23 20:03:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! sftQ $end
+$var wire 1 " sftA $end
+$var wire 1 # qm1 $end
+$var wire 1 $ q0 $end
+$var wire 1 % ldcnt $end
+$var wire 1 & ldQ $end
+$var wire 1 ' ldM $end
+$var wire 1 ( ldA $end
+$var wire 1 ) eqz $end
+$var wire 1 * done $end
+$var wire 1 + dcrc $end
+$var wire 1 , clrff $end
+$var wire 1 - clrQ $end
+$var wire 1 . clrA $end
+$var wire 1 / addsub $end
+$var reg 1 0 clk $end
+$var reg 4 1 data_in [3:0] $end
+$var reg 1 2 start $end
+$scope module bm $end
+$var wire 1 0 clk $end
+$var wire 4 3 data_in [3:0] $end
+$var wire 1 ! sftQ $end
+$var wire 1 " sftA $end
+$var wire 1 # qm1 $end
+$var wire 1 $ q0 $end
+$var wire 1 % ldcnt $end
+$var wire 1 & ldQ $end
+$var wire 1 ' ldM $end
+$var wire 1 ( ldA $end
+$var wire 1 ) eqz $end
+$var wire 1 + dcrc $end
+$var wire 4 4 countdata [3:0] $end
+$var wire 1 , clrff $end
+$var wire 1 - clrQ $end
+$var wire 1 . clrA $end
+$var wire 1 / addsub $end
+$var wire 4 5 Z [3:0] $end
+$var wire 4 6 Q [3:0] $end
+$var wire 4 7 M [3:0] $end
+$var wire 4 8 A [3:0] $end
+$scope module A1 $end
+$var wire 1 0 clk $end
+$var wire 4 9 din [3:0] $end
+$var wire 1 : sin $end
+$var wire 1 " sft $end
+$var wire 1 ( ld $end
+$var wire 1 . clr $end
+$var reg 4 ; dout [3:0] $end
+$upscope $end
+$scope module M1 $end
+$var wire 1 0 clk $end
+$var wire 4 < din [3:0] $end
+$var wire 1 ' ld $end
+$var reg 4 = dout [3:0] $end
+$upscope $end
+$scope module Q1 $end
+$var wire 1 0 clk $end
+$var wire 4 > din [3:0] $end
+$var wire 1 ? sin $end
+$var wire 1 ! sft $end
+$var wire 1 & ld $end
+$var wire 1 - clr $end
+$var reg 4 @ dout [3:0] $end
+$upscope $end
+$scope module alu $end
+$var wire 4 A in0 [3:0] $end
+$var wire 4 B in1 [3:0] $end
+$var wire 1 / addsub $end
+$var reg 4 C out [3:0] $end
+$upscope $end
+$scope module cnt $end
+$var wire 1 0 clk $end
+$var wire 1 % ld $end
+$var wire 1 + dcr $end
+$var reg 4 D countdata [3:0] $end
+$upscope $end
+$scope module qff $end
+$var wire 1 0 clk $end
+$var wire 1 E d $end
+$var wire 1 , clr $end
+$var reg 1 # q $end
+$upscope $end
+$upscope $end
+$scope module con $end
+$var wire 1 0 clk $end
+$var wire 1 ) eqz $end
+$var wire 1 $ q0 $end
+$var wire 1 # qm1 $end
+$var wire 1 2 start $end
+$var parameter 3 F s0 $end
+$var parameter 3 G s1 $end
+$var parameter 3 H s2 $end
+$var parameter 3 I s3 $end
+$var parameter 3 J s4 $end
+$var parameter 3 K s5 $end
+$var parameter 3 L s6 $end
+$var reg 1 / addsub $end
+$var reg 1 . clrA $end
+$var reg 1 - clrQ $end
+$var reg 1 , clrff $end
+$var reg 1 + dcrc $end
+$var reg 1 * done $end
+$var reg 1 ( ldA $end
+$var reg 1 ' ldM $end
+$var reg 1 & ldQ $end
+$var reg 1 % ldcnt $end
+$var reg 1 " sftA $end
+$var reg 1 ! sftQ $end
+$var reg 3 M state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b110 L
+b101 K
+b100 J
+b11 I
+b10 H
+b1 G
+b0 F
+$end
+#0
+$dumpvars
+bx M
+xE
+bx D
+bx C
+b0 B
+bx A
+bx @
+x?
+b111 >
+b0 =
+b111 <
+bx ;
+x:
+b111 9
+bx 8
+b0 7
+bx 6
+bx 5
+bx 4
+b111 3
+12
+b111 1
+00
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0'
+0,
+0%
+0!
+0&
+0-
+0"
+0(
+0.
+0*
+b0 M
+10
+#10
+00
+b11 1
+b11 3
+b11 9
+b11 <
+b11 >
+#15
+1,
+1%
+1.
+1'
+b1 M
+10
+#20
+00
+#25
+b1101 5
+b1101 C
+0?
+0:
+1&
+0'
+0%
+0,
+0.
+b11 7
+b11 =
+b11 B
+b0 8
+b0 ;
+b0 A
+0#
+0)
+b100 4
+b100 D
+b10 M
+10
+#30
+00
+#35
+1E
+1$
+x#
+b11 6
+b11 @
+10
+#40
+00
+#45
+1#
+10
+#50
+00
+#55
+10
+#60
+00
+#65
+10
+#70
+00
+#75
+10
+#80
+00
+#85
+10
+#90
+00
+#95
+10
+#100
+00
+#105
+10
+#110
+00
+#115
+10
+#120
+00
+#125
+10
+#130
+00
+#135
+10
+#140
+00
+#145
+10
+#150
+00
+#155
+10
+#160
+00
+#165
+10
+#170
+00
+#175
+10
+#180
+00
+#185
+10
+#190
+00
+#195
+10
+#200
+00
+#205
+10
+#210
+00
+#215
+10
+#220
+00
+#225
+10
+#230
+00
+#235
+10
+#240
+00
+#245
+10
+#250
+00
+#255
+10
+#260
+00
+#265
+10
+#270
+00
+#275
+10
+#280
+00
+#285
+10
+#290
+00
+#295
+10
+#300
+00
+#305
+10
+#310
+00
+#315
+10
+#320
+00
+#325
+10
+#330
+00
+#335
+10
+#340
+00
+#345
+10
+#350
+00
+#355
+10
+#360
+00
+#365
+10
+#370
+00
+#375
+10
+#380
+00
+#385
+10
+#390
+00
+#395
+10
+#400
+00
+#405
+10
+#410
+00
+#415
+10
+#420
+00
+#425
+10
+#430
+00
+#435
+10
+#440
+00
+#445
+10
+#450
+00
+#455
+10
+#460
+00
+#465
+10
+#470
+00
+#475
+10
+#480
+00
+#485
+10
+#490
+00
+#495
+10
+#500
+00
+#505
+10
+#510
+00
+#515
+10
+#520
+00
+#525
+10
+#530
+00
+#535
+10
+#540
+00
+#545
+10
+#550
+00
+#555
+10
+#560
+00
+#565
+10
+#570
+00
+#575
+10
+#580
+00
+#585
+10
+#590
+00
+#595
+10
+#600
+00
+#605
+10
+#610
+00
+#615
+10
+#620
+00
+#625
+10
+#630
+00
+#635
+10
+#640
+00
+#645
+10
+#650
+00
+#655
+10
+#660
+00
+#665
+10
+#670
+00
+#675
+10
+#680
+00
+#685
+10
+#690
+00
+#695
+10
+#700
+00
+#705
+10
+#710
+00
+#715
+10
+#720
+00
+#725
+10
+#730
+00
+#735
+10
+#740
+00
+#745
+10
+#750
+00
+#755
+10
+#760
+00
+#765
+10
+#770
+00
+#775
+10
+#780
+00
+#785
+10
+#790
+00
+#795
+10
+#800
+00
+#805
+10
+#810
+00
+#815
+10
+#820
+00
+#825
+10
+#830
+00
+#835
+10
+#840
+00
+#845
+10
+#850
+00
+#855
+10
+#860
+00
+#865
+10
+#870
+00
+#875
+10
+#880
+00
+#885
+10
+#890
+00
+#895
+10
+#900
+00
+#905
+10
+#910
+00
+#915
+10
+#920
+00
+#925
+10
+#930
+00
+#935
+10
+#940
+00
+#945
+10
+#950
+00
+#955
+10
+#960
+00
+#965
+10
+#970
+00
+#975
+10
+#980
+00
+#985
+10
+#990
+00
+#995
+10
+#1000
+00
+#1005
+10
+#1010
+00
