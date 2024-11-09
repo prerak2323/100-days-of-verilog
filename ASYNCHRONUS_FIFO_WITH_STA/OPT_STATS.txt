@@ -1,0 +1,183 @@
+14. Printing statistics.
+
+=== async_fifo ===
+
+   Number of wires:                 16
+   Number of wire bits:             52
+   Number of public wires:          16
+   Number of public wire bits:      52
+   Number of ports:                 10
+   Number of port bits:             24
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     cdc                             2
+     fifo_memory                     1
+     rptr_handler                    1
+     wptr_handler                    1
+
+   Area for cell type \fifo_memory is unknown!
+   Area for cell type \cdc is unknown!
+   Area for cell type \rptr_handler is unknown!
+   Area for cell type \wptr_handler is unknown!
+
+=== b2g ===
+
+   Number of wires:                  2
+   Number of wire bits:             10
+   Number of public wires:           2
+   Number of public wire bits:      10
+   Number of ports:                  2
+   Number of port bits:             10
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     XOR2_X1                         4
+
+   Chip area for module '\b2g': 6.384000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc ===
+
+   Number of wires:                 25
+   Number of wire bits:             37
+   Number of public wires:           5
+   Number of public wire bits:      17
+   Number of ports:                  4
+   Number of port bits:             12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 20
+     AND2_X1                        10
+     DFF_X1                         10
+
+   Chip area for module '\cdc': 55.860000
+     of which used for sequential elements: 45.220000 (80.95%)
+
+=== fifo_memory ===
+
+   Number of wires:                 11
+   Number of wire bits:             48
+   Number of public wires:           7
+   Number of public wire bits:      27
+   Number of ports:                  7
+   Number of port bits:             27
+   Number of memories:               1
+   Number of memory bits:          128
+   Number of processes:              0
+   Number of cells:                 16
+     $memrd                          1
+     $memwr_v2                       1
+     AND2_X1                         1
+     AND3_X1                        12
+     INV_X1                          1
+
+   Area for cell type $memrd is unknown!
+   Area for cell type $memwr_v2 is unknown!
+
+   Chip area for module '\fifo_memory': 17.556000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== rptr_handler ===
+
+   Number of wires:                 36
+   Number of wire bits:             59
+   Number of public wires:          11
+   Number of public wire bits:      34
+   Number of ports:                  7
+   Number of port bits:             18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 32
+     AOI211_X1                       1
+     AOI222_X1                       1
+     DFFR_X1                        10
+     DFFS_X1                         1
+     INV_X1                          5
+     NAND2_X1                        2
+     NAND3_X1                        2
+     NOR2_X1                         1
+     OAI211_X1                       1
+     OAI222_X1                       1
+     XNOR2_X1                        5
+     XOR2_X1                         1
+     b2g                             1
+
+   Area for cell type \b2g is unknown!
+
+   Chip area for module '\rptr_handler': 82.194000
+     of which used for sequential elements: 58.520000 (71.20%)
+
+=== wptr_handler ===
+
+   Number of wires:                 34
+   Number of wire bits:             57
+   Number of public wires:          11
+   Number of public wire bits:      34
+   Number of ports:                  7
+   Number of port bits:             18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 30
+     AOI211_X1                       1
+     AOI222_X1                       1
+     DFFR_X1                        11
+     INV_X1                          3
+     NAND2_X1                        2
+     NAND3_X1                        2
+     NOR2_X1                         1
+     OAI211_X1                       1
+     OAI222_X1                       1
+     XNOR2_X1                        5
+     XOR2_X1                         1
+     b2g                             1
+
+   Area for cell type \b2g is unknown!
+
+   Chip area for module '\wptr_handler': 81.130000
+     of which used for sequential elements: 58.520000 (72.13%)
+
+=== design hierarchy ===
+
+   async_fifo                        1
+     cdc                             2
+     fifo_memory                     1
+     rptr_handler                    1
+       b2g                           1
+     wptr_handler                    1
+       b2g                           1
+
+   Number of wires:                151
+   Number of wire bits:            310
+   Number of public wires:          59
+   Number of public wire bits:     201
+   Number of ports:                 43
+   Number of port bits:            131
+   Number of memories:               1
+   Number of memory bits:          128
+   Number of processes:              0
+   Number of cells:                124
+     $memrd                          1
+     $memwr_v2                       1
+     AND2_X1                        21
+     AND3_X1                        12
+     AOI211_X1                       2
+     AOI222_X1                       2
+     DFFR_X1                        21
+     DFFS_X1                         1
+     DFF_X1                         20
+     INV_X1                          9
+     NAND2_X1                        4
+     NAND3_X1                        4
+     NOR2_X1                         2
+     OAI211_X1                       2
+     OAI222_X1                       2
+     XNOR2_X1                       10
+     XOR2_X1                        10
+
+   Chip area for top module '\async_fifo': 305.368000
