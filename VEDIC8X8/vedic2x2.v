@@ -1,0 +1,16 @@
+module vedic2x2(
+	input [1:0]a,b,
+	output [3:0]prod);
+	
+	wire a1b1 = a[1] & b[1];
+	wire a0b1 = a[0] & b[1];
+	wire a1b0 = a[1] & b[0];
+	wire a0b0 = a[0] & b[0];
+	wire carry;
+	
+	assign prod[0] = a0b0;
+	
+	HalfAdder HA0(a0b1, a1b0, prod[1], carry);
+	HalfAdder HA1(a1b1, carry, prod[2], prod[3]);
+	
+endmodule
